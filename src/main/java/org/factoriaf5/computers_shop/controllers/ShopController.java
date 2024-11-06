@@ -5,6 +5,7 @@ import org.springframework.web.bind.annotation.RestController;
 import java.util.List;
 
 import org.factoriaf5.computers_shop.models.Computer;
+import org.factoriaf5.computers_shop.models.Shop;
 import org.factoriaf5.computers_shop.services.ShopService;
 import org.springframework.web.bind.annotation.GetMapping;
 
@@ -19,8 +20,8 @@ public class ShopController {
     }
     
     // Get the list of all the computers
-    @GetMapping(path = "/computers")
-    public List<Computer> getComputers() {
+    @GetMapping(path = "/shops")
+    public List<Shop> getComputers() {
         return shopService.getAll();
     }
     
