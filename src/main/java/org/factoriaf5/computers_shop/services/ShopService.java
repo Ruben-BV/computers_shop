@@ -8,7 +8,8 @@ import org.springframework.stereotype.Service;
 
 @Service
 public class ShopService {
-    private final ShopRepository shopRepository;
+    
+    ShopRepository shopRepository;
 
     public ShopService(ShopRepository shopRepository) {
         this.shopRepository = shopRepository;
@@ -16,4 +17,7 @@ public class ShopService {
     public List<Shop> getAll(){
         return shopRepository.findAll();
     }
+
+
+    
 }
