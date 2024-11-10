@@ -32,6 +32,14 @@ public class Shop {
     @JsonManagedReference
     private List<Computer> computers;
 
+    
+    public Shop(Long id, String name, String owner, Long utr) {
+        this.id = id;
+        this.name = name;
+        this.owner = owner;
+        this.utr = utr;
+    }
+
     public Long getId() {
         return id;
     }

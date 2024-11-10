@@ -37,6 +37,19 @@ public class Computer {
     private Shop shop;
 
 
+    
+    public Computer(Long id, String brand, double memory, String processor, String operatingSystem, double price,
+            Shop shop) {
+        this.id = id;
+        this.brand = brand;
+        this.memory = memory;
+        this.processor = processor;
+        this.operatingSystem = operatingSystem;
+        this.price = price;
+        this.shop = shop;
+    }
+
+
     public Long getId() {
         return id;
     }

@@ -5,7 +5,6 @@ import java.util.List;
 
 import org.factoriaf5.computers_shop.models.Computer;
 import org.factoriaf5.computers_shop.repositories.ComputerRepository;
-import org.springframework.http.ResponseEntity;
 import org.springframework.stereotype.Service;
 
 import jakarta.transaction.Transactional;
