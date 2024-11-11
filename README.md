@@ -1,4 +1,4 @@
-# Computers-Shop
+# Computers-Shop (KATA)
 A program was required to model a computer store.
 
 ## Shop Attributes
@@ -23,6 +23,7 @@ A program was required to model a computer store.
 <p align="center">
 	  <img src="https://github.com/Ruben-BV/computers_shop/blob/main/2024_11_11_Computer_Shop_UML_Classes.jpg" />
 </p>
+
 ## Testing (minimum 70% coverage)
 <p align="center">
 	  <img src="https://github.com/Ruben-BV/computers_shop/blob/main/2024_11_11_Computer_Shop_Test_Coverage.jpg" />
