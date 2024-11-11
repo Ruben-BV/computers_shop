@@ -10,4 +10,9 @@ class ComputersShopApplicationTests {
 	void contextLoads() {
 	}
 
+    @Test
+    void testMain() {
+        
+    }
+
 }
